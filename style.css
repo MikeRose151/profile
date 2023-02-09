@@ -1,0 +1,88 @@
+body {
+  background-image: url("https://www.textures4photoshop.com/tex/thumbs/computer-screen-code-glitch-animation-gif-background-free-thumb57.gif");
+  background-clip: border-box;
+  font-family: 'Asap', sans-serif;
+  color: rgb(50, 0, 50);
+  font-size: small;
+  line-height: 20px
+}
+
+h1, h2, h3 {
+  color:rgb(125, 0, 125);
+  font-family: 'Francois One', sans-serif;
+  font-size: x-large;
+  line-height: 25px;
+}
+
+a {
+  color: rgb(48, 180, 132);
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(29, 95, 71);
+  text-decoration: wavy
+}
+
+img {
+  border: 2px solid;
+  border-color: rgb(125, 0, 125);
+  border-radius: 50px;
+}
+
+button {
+  background-color: rgb(255, 0, 0);
+  border: 1px solid;
+  border-color: rgb(0, 0, 0)
+}
+
+.card-white {
+  background: rgb(255, 255, 255);
+  border: 1.5px solid rgb(125, 0, 125);
+  border-radius: 5px;
+  box-shadow: 2px 2px 3px rgb(150, 150, 150);
+  margin: 20px auto;
+  padding: 10px;
+  text-align: center;
+  width: 600px
+}
+
+.card-button {
+  text-align: center;
+  margin: 20px auto;
+  padding: 10px;
+  width: 600px
+}
+
+#le-wagon-button {
+  color: rgb(255, 255, 255);
+  background-color: rgb(255,0,0);
+}
+
+.list-inline {
+  display: inline;
+  list-style-type: none;
+  margin: 20px;
+  font-size: 30px
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
